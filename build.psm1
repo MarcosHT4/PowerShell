@@ -3,7 +3,7 @@
 
 param(
     # Skips a check that prevents building PowerShell on unsupported Linux distributions
-    [parameter(Mandatory = $false)][switch]$SkipLinuxDistroCheck = $false
+    [parameter(Mandatory = $false)][switch]$SkipLinuxDistroCheck = $true
 )
 
 . "$PSScriptRoot\tools\buildCommon\startNativeExecution.ps1"
